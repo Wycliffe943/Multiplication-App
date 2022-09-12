@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    background: url("https://images.unsplash.com/photo-1516053256215-94022213b13c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80");
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form{
+    background-color: gray;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0, .3);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.input {
+    display: block;
+    width:100%;
+    box-sizing: border-box;
+    font-size: 25px;
+    text-align: center;
+    padding: 5px;
+    border: solid 2px rgb(70, 43, 9);
+    color: rgb(24, 32, 32);
+}
+
+.input::placeholder{
+    color: lightgray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn {
+    background-color: darkolivegreen;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0, 0.3);
+    cursor: pointer;
+}
+
+.btn:hover {
+    filter: brightness(0.9);
+}
+
+.score {
+    color: rgb(10, 10, 9);
+    text-align: right;
+    font-size: 20px;
+}
+
